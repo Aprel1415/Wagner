@@ -1,0 +1,36 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+header {
+    background-color: #a4161a;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 600;
+    height: 100px;
+    width: 100%;
+}
+
+
+
+#logo {
+    border-radius:300px;
+    height: 80px;
+    margin: 10px;
+}
+
+.navbar {    
+    margin-right:80px;
+    display: inline-block;
+}
+
+.text:hover {
+    transition: all 1s ease;
+    color: #ffffff;
+}
+
+.text:not(:hover) {
+    transition: all 1s ease;
+    color: #000000;
+}
