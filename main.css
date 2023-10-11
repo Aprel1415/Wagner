@@ -10,9 +10,14 @@ header {
     font-weight: 600;
     height: 100px;
     width: 100%;
+    display: flex;
+    flex-direction: row;
 }
 
-
+#hymn {
+    margin-top: 40px;
+    margin-left: 10px;
+}
 
 #logo {
     border-radius:300px;
@@ -20,9 +25,17 @@ header {
     margin: 10px;
 }
 
+.list {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-left: 180px;
+}
+
 .navbar {    
     margin-right:80px;
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
 }
 
 .text:hover {
