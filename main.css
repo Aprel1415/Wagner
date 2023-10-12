@@ -65,10 +65,10 @@ header {
 
 .newsblock {
     position: absolute;
-    left: 30%;
-    margin-top: 2px;
-    height: 60%;
-    width: 40%;
+    left: 10%;
+    margin-top: 30px;
+    height: 600px;
+    width: 20%;
     background-color: #a4161a;
 } 
 
@@ -76,4 +76,20 @@ main {
     height: 1400px;
     width: 100%; 
     background-color: rgb(44, 44, 44); 
+}
+
+#firstpic {
+    height: 195px;
+}
+
+.zagolovok {
+    margin: 15px;
+}
+
+.novost {
+    margin: 10px;
+}
+
+#news1 {
+    padding: 10px;
 }
