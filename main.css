@@ -93,3 +93,13 @@ main {
 #news1 {
     padding: 10px;
 }
+
+.newsblock:hover{
+    transition: 1s;
+    scale: 1.05;
+}
+
+.newsblock:not(:hover){
+    transition: 1s;
+    scale: 1;
+}
