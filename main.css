@@ -21,8 +21,20 @@ header {
 
 #logo {
     border-radius:300px;
+    height: 60px;
+    margin: 20px;
+}
+
+#logo:hover {
+    transition: 1s;
     height: 80px;
     margin: 10px;
+}
+
+#logo:not(:hover) {
+    transition: 1s;
+    height: 60px;
+    margin: 20px;
 }
 
 .list {
@@ -41,9 +53,12 @@ header {
 .text:hover {
     transition: all 1s ease;
     color: #ffffff;
+    transform: translateY(-2px);
+    text-shadow: 2px 2px 2px rgb(39, 39, 39);;
 }
 
 .text:not(:hover) {
     transition: all 1s ease;
     color: #000000;
+    font-size: medium;
 }
