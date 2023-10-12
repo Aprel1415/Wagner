@@ -62,3 +62,18 @@ header {
     color: #000000;
     font-size: medium;
 }
+
+.newsblock {
+    position: absolute;
+    left: 30%;
+    margin-top: 2px;
+    height: 60%;
+    width: 40%;
+    background-color: #a4161a;
+} 
+
+main {
+    height: 1400px;
+    width: 100%; 
+    background-color: rgb(44, 44, 44); 
+}
