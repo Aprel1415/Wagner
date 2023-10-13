@@ -81,7 +81,7 @@ main {
     background-position: center; 
 }
 
-#firstpic {
+.mainpic {
     height: 195px;
 }
 
@@ -96,33 +96,31 @@ main {
 #newsblock:hover{
     transition: 1s;
     scale: 1.05;
+    color: #a4161a;
+    background-color: black;
 }
 
 #newsblock:not(:hover){
     transition: 1s;
     scale: 1;
+    background-color: #a4161a;
 }
 
-#news1 {
-    padding: 10px;
-}
-
-#news2 {
+.news {
     padding: 10px;
 }
 
 #newsblock2:hover{
     transition: 1s;
     scale: 1.05;
+    color: #a4161a;
+    background-color: rgb(0, 0, 0);
 }
 
 #newsblock2:not(:hover){
     transition: 1s;
     scale: 1;
-}
-
-#firstpic2 {
-    height: 195px;
+    background-color: #a4161a;
 }
 
 #newsblock2 {
@@ -133,3 +131,25 @@ main {
     width: 20%;
     background-color: #a4161a;
 } 
+
+#newsblock3 {
+    position: absolute;
+    left: 70%;
+    margin-top: 30px;
+    height: 600px;
+    width: 20%;
+    background-color: #a4161a;
+} 
+
+#newsblock3:hover{
+    transition: 1s;
+    scale: 1.05;
+    color: #a4161a;
+    background-color: black;
+}
+
+#newsblock3:not(:hover){
+    transition: 1s;
+    scale: 1;
+    background-color: #a4161a;
+}
