@@ -70,6 +70,8 @@ header {
     height: 600px;
     width: 20%;
     background-color: #a4161a;
+    clip-path: polygon(100% 0, 100% 95%, 95% 100%, 0 100%, 0 0);
+    border-radius: 5px 5px 0px 5px;
 } 
 
 main {
@@ -79,10 +81,25 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
+    background-attachment: fixed;
 }
 
-.mainpic {
+#mainpic {
     height: 195px;
+    width: 100%;
+    border-radius: 4px;
+}
+
+#mainpic2 {
+    height: 195px;
+    width: 100%;
+    border-radius: 4px;
+}
+
+#mainpic3 {
+    height: 195px;
+    width: 100%;
+    border-radius: 4px;
 }
 
 .zagolovok {
@@ -107,7 +124,7 @@ main {
 }
 
 .news {
-    padding: 10px;
+    padding: 2%;
 }
 
 #newsblock2:hover{
@@ -130,6 +147,8 @@ main {
     height: 600px;
     width: 20%;
     background-color: #a4161a;
+    clip-path: polygon(100% 0, 100% 95%, 95% 100%, 0 100%, 0 0);
+    border-radius: 5px 5px 0px 5px;
 } 
 
 #newsblock3 {
@@ -139,9 +158,11 @@ main {
     height: 600px;
     width: 20%;
     background-color: #a4161a;
+    clip-path: polygon(100% 0, 100% 95%, 95% 100%, 0 100%, 0 0);
+    border-radius: 5px 5px 0px 5px;
 } 
 
-#newsblock3:hover{
+#newsblock3:hover {
     transition: 1s;
     scale: 1.05;
     color: #a4161a;
@@ -152,4 +173,20 @@ main {
     transition: 1s;
     scale: 1;
     background-color: #a4161a;
+}
+
+.linknews {
+    display: block;
+    height: 100%;
+    color: #000000;
+}
+
+.linknews:hover {
+    transition: 1s;
+    color: #a4161a;
+}
+
+.linknews:not(:hover) {
+    transition: 1s;
+    color: black;
 }
