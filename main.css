@@ -61,10 +61,10 @@ header {
 }
 
 .text:hover {
-    transition: all 1s ease;
+    transition: 1s;
     color: #ffffff;
     transform: translateY(-2px);
-    text-shadow: 2px 2px 2px rgb(39, 39, 39);;
+    text-shadow: 2px 2px 2px rgb(39, 39, 39);
 }
 
 .text:not(:hover) {
@@ -345,8 +345,92 @@ footer {
     height: 60px;
 }
 
+#mediavb:hover {
+    transition: 1s;
+    scale: 1.1;
+}
+
+#mediavk:hover {
+    transition: 1s;
+    scale: 1.1;
+}
+
+#mediatg:hover {
+    transition: 1s;
+    scale: 1.1;
+}
+
+#mediavb:not(:hover) {
+    transition: 1s;
+    scale: 1;
+}
+
+#mediavk:not(:hover) {
+    transition: 1s;
+    scale: 1;
+}
+
+#mediatg:not(:hover) {
+    transition: 1s;
+    scale: 1;
+}
+
 .linkmedia {
     display: block;
     height: 1px;
     width: 1px;
+}
+
+#contacts {
+    height: 100px;
+    margin-left: 200px;
+    margin-top: 80px;
+}
+
+.phone {
+    color: black;
+    font-size: large;
+}
+
+#sponsor {
+    height: 100px;
+    margin-left: 70px;
+    margin-top: 80px;
+}
+
+#email {
+    height: 100px;
+    margin-left: 70px;
+    margin-top: 80px;
+}
+
+.phone:hover {
+    color: black;
+    font-size: larger;
+    transition: 1s;
+    color: #ffffff;
+    transform: translateY(-2px);
+    text-shadow: 2px 2px 2px rgb(39, 39, 39);
+}
+
+.phone:not(:hover) {
+    transition: 1s;
+    color: black;
+    font-size: large;
+}
+
+#logo2 {
+    margin-top: 40px;
+    margin-left: 180px;
+    height: 120px;
+}
+
+#logo2:hover {
+    transition: 1s;
+    scale: 1.2;
+}
+
+#logo2:not(:hover) {
+    transition: 1s;
+    scale: 1;
 }
