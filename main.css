@@ -21,6 +21,7 @@ header {
     font-family: 'Zen Kaku Gothic New', sans-serif;
     font-weight: 600;
     border-radius: 0px 0px 20px 20px;
+    border-bottom:  1px solid rgb(0, 0, 0);
 }
 
 #hymn {
@@ -81,6 +82,7 @@ header {
     background-color: #a4161a;
     clip-path: polygon(100% 0, 100% 97%, 97% 100%, 0 100%, 0 0);
     border-radius: 5px 5px 0px 5px;
+    border:  1px solid rgb(0, 0, 0);
 } 
 
 main {
@@ -158,6 +160,7 @@ main {
     background-color: #a4161a;
     clip-path: polygon(100% 0, 100% 97%, 97% 100%, 0 100%, 0 0);
     border-radius: 5px 5px 0px 5px;
+    border:  1px solid rgb(0, 0, 0);
 } 
 
 #newsblock3 {
@@ -169,6 +172,7 @@ main {
     background-color: #a4161a;
     clip-path: polygon(100% 0, 100% 97%, 97% 100%, 0 100%, 0 0);
     border-radius: 5px 5px 0px 5px;
+    border:  1px solid rgb(0, 0, 0);
 } 
 
 #newsblock3:hover {
@@ -210,6 +214,8 @@ main {
     border-radius: 10px;
     display: flex;
     flex-direction: row;
+    border:  1px solid rgb(0, 0, 0);
+    clip-path: polygon(100% 0, 100% 97%, 97% 100%, 0 100%, 0 0);
 } 
 
 #mainpic4 {
@@ -252,6 +258,8 @@ main {
     border-radius: 10px;
     display: flex;
     flex-direction: row;
+    border:  1px solid rgb(0, 0, 0);
+    clip-path: polygon(100% 0, 100% 97%, 97% 100%, 0 100%, 0 0);
 } 
 
 #mainpic5 {
@@ -299,4 +307,40 @@ footer {
     width: 100%;
     background-color: #a4161a;
     border-radius: 20px 20px 0px 0px;
+    border-top:  1px solid rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+}
+
+#mediavk {
+    margin-top: 80px;
+    margin-left: 50px;
+    height: 60px;
+}
+
+#mediatg {
+    margin-top: 80px;
+    margin-left: 100px;
+    height: 60px;
+}
+
+#vkblock {
+    height: 65px;
+    width: 65px;
+}
+
+#tgblock {
+    height: 65px;
+    width: 65px;
+}
+
+#vbblock {
+    height: 65px;
+    width: 65px;
+}
+
+#mediavb {
+    margin-top: 80px;
+    margin-left: 150px;
+    height: 60px;
 }
