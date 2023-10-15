@@ -5,13 +5,22 @@
 }
 
 header {
-    background-color: #a4161a;
-    font-family: 'Zen Kaku Gothic New', sans-serif;
-    font-weight: 600;
-    height: 100px;
+    height: 200px;
     width: 100%;
+    background-image: url("715.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed;
+}
+
+#upperblock {
+    background-color: #a4161a;
     display: flex;
     flex-direction: row;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 600;
+    border-radius: 0px 0px 20px 20px;
 }
 
 #hymn {
@@ -193,7 +202,7 @@ main {
 
 #newsblock4 {
     position: absolute;
-    top: 850px;
+    top: 1000px;
     left: 10%;
     height: 300px;
     width: 35%;
@@ -235,7 +244,7 @@ main {
 
 #newsblock5 {
     position: absolute;
-    top: 850px;
+    top: 1000px;
     left: 55%;
     height: 300px;
     width: 35%;
@@ -273,4 +282,21 @@ main {
     transition: 1s;
     scale: 1;
     background-color: #a4161a;
+}
+
+footer {
+    height: 200px;
+    width: 100%;
+    background-image: url("715.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed;
+}
+
+#bottomblock {
+    height: 200px;
+    width: 100%;
+    background-color: #a4161a;
+    border-radius: 20px 20px 0px 0px;
 }
