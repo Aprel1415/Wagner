@@ -344,3 +344,9 @@ footer {
     margin-left: 150px;
     height: 60px;
 }
+
+.linkmedia {
+    display: block;
+    height: 1px;
+    width: 1px;
+}
