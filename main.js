@@ -32,3 +32,6 @@ switch(kakish) {
 }
 
 console.log("переменная нам 1 равна " + num_1);
+
+let arr = [12, 4, 15, 5.4, "negroid", false];
+console.log(arr);
