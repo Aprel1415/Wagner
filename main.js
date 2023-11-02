@@ -34,4 +34,8 @@ switch(kakish) {
 console.log("переменная нам 1 равна " + num_1);
 
 let arr = [12, 4, 15, 5.4, "negroid", false];
-console.log(arr);
+console.log(arr[0]);
+console.log(arr.length)
+
+let nosferatu = [[5.7,"jojo"],[true,false],[3,4]];
+console.log(nosferatu[1][1]);
