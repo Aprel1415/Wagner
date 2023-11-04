@@ -86,3 +86,4 @@ alert("slavnaya devushka u menya");
     alert("ТЫ ОФИГЕЛ??? МОЯ ДЕВУШКА САМАЯ СЛАВНАЯ");
  }
  
+le
