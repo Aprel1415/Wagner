@@ -39,3 +39,42 @@ console.log(arr.length)
 
 let nosferatu = [[5.7,"jojo"],[true,false],[3,4]];
 console.log(nosferatu[1][1]);
+
+for(let i = 0; i < 10; i++) {
+    console.log(i);
+}
+
+let j = 0;
+while(j < 7){
+    j++;
+    console.log(j);
+}
+
+let iks = 1090;
+
+do {
+    iks-=200;
+    console.log(iks);
+} while(iks >= 20);
+
+
+for (let b = 0; b <= 200; b++) {
+    if(b % 2 == 0)
+        continue;
+    if(b > 20)
+    break;
+    console.log(b);
+}
+
+let arrarat = [1,3,21,2.1];
+
+for(let ix = 0; ix < arrarat.length; ix++){
+    console.log("Элемент массива " + (ix+1) + " --> " + arrarat[ix]);
+}
+
+for(let ipx = 0; ipx < nosferatu.length; ipx++){
+    let c = nosferatu[ipx];
+    for(lol = 0; lol < c.length; lol++){
+        console.log(c[lol]);
+    }
+}
