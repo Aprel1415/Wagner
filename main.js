@@ -78,3 +78,11 @@ for(let ipx = 0; ipx < nosferatu.length; ipx++){
         console.log(c[lol]);
     }
 }
+
+alert("slavnaya devushka u menya");
+ let opros = confirm("soglasen?");
+ console.log(opros);
+ if(!opros){
+    alert("ТЫ ОФИГЕЛ??? МОЯ ДЕВУШКА САМАЯ СЛАВНАЯ");
+ }
+ 
