@@ -92,3 +92,5 @@ if(confirm("Желаешь пройти тест?")){
     alert("не очень и хотелось, козёл");
 }
 
+console.log("ghghashghasgklhalsgaskj");
+
