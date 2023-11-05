@@ -79,18 +79,11 @@ for(let ipx = 0; ipx < nosferatu.length; ipx++){
     }
 }
 
-/*alert("slavnaya devushka u menya");
- let opros = confirm("soglasen?");
- console.log(opros);
- if(!opros){
+alert("slavnaya devushka u menya");
+let opros = confirm("soglasen?");
+console.log(opros);
+if(!opros){
     alert("ТЫ ОФИГЕЛ??? МОЯ ДЕВУШКА САМАЯ СЛАВНАЯ");
- }*/
+}
 
- let m;
- if(confirm("Хотите пройти тест?")) {
-    m = prompt("Введите, сколько вам лет. Это необходим для участия.", 14);
-    alert("negr");
- }  else {
-    alert("Ну и не надо...");
- }
     
