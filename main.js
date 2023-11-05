@@ -1,1 +1,1 @@
-alert("ura");
+confirm("ti geniy, sogl?");
