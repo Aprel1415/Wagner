@@ -79,11 +79,17 @@ for(let ipx = 0; ipx < nosferatu.length; ipx++){
     }
 }
 
-alert("slavnaya devushka u menya");
-let opros = confirm("soglasen?");
-console.log(opros);
-if(!opros){
-    alert("ТЫ ОФИГЕЛ??? МОЯ ДЕВУШКА САМАЯ СЛАВНАЯ");
+let m;
+if(confirm("Желаешь пройти тест?")){
+    m = prompt("Введи своё имя для теста:");
+    let jol = confirm("Виолетта Грубор самая лучшая во всём?");
+    if(jol){
+        alert(m + ", Вы абсолютно правы!");
+    }   else {
+        alert("Да пошёл ты...");
+    }
+}   else{
+    alert("не очень и хотелось, козёл");
 }
 
     
