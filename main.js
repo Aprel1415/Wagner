@@ -94,3 +94,28 @@ if(confirm("Желаешь пройти тест?")){
 
 console.log("ghghashghasgklhalsgaskj");
 
+function info (name) {
+    console.log("Привет " + name);
+    console.log("!");
+}
+
+
+function calculator (a,b) {
+    let resultat = a + b;
+    info(resultat);
+}
+
+calculator(6,8);
+
+function masslator (massiv) {
+    let bitch = 0;
+    for(i=0;i<massiv.length;i++){
+        bitch+= massiv[i];
+    }
+    console.log(bitch);
+}
+
+let massivishe =[142,123123,521];
+
+masslator(massivishe);
+
