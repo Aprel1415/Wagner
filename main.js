@@ -119,6 +119,13 @@ let massivishe =[142,123123,521];
 
 masslator(massivishe);
 
-function clicker () {
-    console.log("kandibober");
+let counterclick = 0;
+
+function clicker (el) {
+    counterclick++;
+    if(counterclick > 20) {
+        el.innerHTML = "Хватит"
+    } else {
+        console.log("Кол-во нажатий: " + counterclick);
+    }
 } 
