@@ -119,3 +119,6 @@ let massivishe =[142,123123,521];
 
 masslator(massivishe);
 
+function clicker () {
+    console.log("kandibober");
+} 
