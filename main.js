@@ -124,7 +124,7 @@ let counterclick = 0;
 function clicker (el) {
     counterclick++;
     if(counterclick > 20) {
-        el.innerHTML = "Хватит"
+        el.innerHTML = "Виолетта Грубор моя любимая девушка"
     } else {
         console.log("Кол-во нажатий: " + counterclick);
     }
