@@ -4,6 +4,11 @@
     text-decoration: none;
 }
 
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
 html {
     scroll-behavior: smooth;
 }
