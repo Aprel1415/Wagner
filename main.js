@@ -16,7 +16,7 @@ if(num_3 < 4) {
 {
     console.log("Фрол всё равно легенда");
 } else {
-    console.log("Виолетта Котик");
+    console.log("Виолетта Котик самый любимый мой вообще маинькикй котик попик <3");
 }
 
 let kakish = "govno";
@@ -124,7 +124,7 @@ let counterclick = 0;
 function clicker (el) {
     counterclick++;
     if(counterclick > 20) {
-        el.innerHTML = "Хватит"
+        el.innerHTML = "Виолетта Грубор моя любимая девушка"
     } else {
         console.log("Кол-во нажатий: " + counterclick);
     }
