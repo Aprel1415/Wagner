@@ -107,19 +107,7 @@ main {
     background-attachment: fixed;
 }
 
-#mainpic {
-    height: 195px;
-    width: 100%;
-    border-radius: 4px;
-}
-
-#mainpic2 {
-    height: 195px;
-    width: 100%;
-    border-radius: 4px;
-}
-
-#mainpic3 {
+.mainpic {
     height: 195px;
     width: 100%;
     border-radius: 4px;
@@ -230,7 +218,7 @@ main {
     clip-path: polygon(100% 0, 100% 97%, 97% 100%, 0 100%, 0 0);
 } 
 
-#mainpic4 {
+.mainpic2 {
     height: 275px;
     width: 300px;
     border-radius: 4px;
@@ -273,12 +261,6 @@ main {
     border:  1px solid rgb(0, 0, 0);
     clip-path: polygon(100% 0, 100% 97%, 97% 100%, 0 100%, 0 0);
 } 
-
-#mainpic5 {
-    height: 275px;
-    width: 300px;
-    border-radius: 4px;
-}
 
 #nizhniyzagolovok2 {
     margin: 5%;

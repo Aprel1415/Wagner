@@ -80,7 +80,7 @@ for(let ipx = 0; ipx < nosferatu.length; ipx++){
 }
 
 let m;
-if(confirm("Желаешь пройти тест?")){
+/*if(confirm("Желаешь пройти тест?")){
     m = prompt("Введи своё имя для теста:");
     let jol = confirm("Виолетта Грубор самая лучшая во всём?");
     if(jol){
@@ -90,7 +90,7 @@ if(confirm("Желаешь пройти тест?")){
     }
 }   else{
     alert("не очень и хотелось, козёл");
-}
+}*/
 
 console.log("ghghashghasgklhalsgaskj");
 
@@ -129,3 +129,4 @@ function clicker (el) {
         console.log("Кол-во нажатий: " + counterclick);
     }
 } 
+
