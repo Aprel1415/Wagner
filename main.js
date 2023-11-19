@@ -1,4 +1,4 @@
-var greetings = "hello to world!";
+/*var greetings = "hello to world!";
 console.log("Hey, bro! Say " + greetings + "!!");
 let num_1 = 5;
 var num_2 = 2;
@@ -80,7 +80,7 @@ for(let ipx = 0; ipx < nosferatu.length; ipx++){
 }
 
 let m;
-/*if(confirm("Желаешь пройти тест?")){
+if(confirm("Желаешь пройти тест?")){
     m = prompt("Введи своё имя для теста:");
     let jol = confirm("Виолетта Грубор самая лучшая во всём?");
     if(jol){
@@ -90,7 +90,7 @@ let m;
     }
 }   else{
     alert("не очень и хотелось, козёл");
-}*/
+}
 
 console.log("ghghashghasgklhalsgaskj");
 
@@ -129,4 +129,13 @@ function clicker (el) {
         console.log("Кол-во нажатий: " + counterclick);
     }
 } 
+*/
+function slider () {
+    const img = document.getElementById("mainpic33");
+    img.src = "Лучший в Аду.jpg";
+}
 
+function sliderover () {
+    const img = document.getElementById("mainpic33");
+    img.src = "Приг.jpg";
+}
