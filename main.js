@@ -139,3 +139,4 @@ function sliderover () {
     const img = document.getElementById("mainpic33");
     img.src = "Приг.jpg";
 }
+
