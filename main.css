@@ -428,3 +428,11 @@ footer {
     transition: 1s;
     scale: 1;
 }
+
+img {
+    transition: opacity 1s ease-in-out;
+  }
+  
+  img.fade {
+    opacity: 0;
+  }
