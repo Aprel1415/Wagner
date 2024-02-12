@@ -28,7 +28,7 @@ body {
     font-weight: 600;
 }
 
-#upperblock {
+#menu {
     background-color: #a4161a;
     display: flex;
     flex-direction: row;
@@ -36,7 +36,7 @@ body {
     border-bottom:  1px solid rgb(0, 0, 0);
 }
 
-#hymn {
+#motto {
     margin-top: 40px;
     margin-left: 10px;
 }
@@ -59,14 +59,14 @@ body {
     margin: 20px;
 }
 
-.list {
+.navList {
     display: flex;
     flex-direction: row;
     margin-top: 40px;
     margin-left: 180px;
 }
 
-.navbar {    
+.navBut {    
     margin-right:80px;
     display: flex;
     flex-direction: row;
@@ -85,7 +85,7 @@ body {
     font-size: medium;
 }
 
-#newsblock {
+#newsBlock1 {
     position: absolute;
     left: 10%;
     margin-top: 30px;
@@ -107,28 +107,28 @@ main {
     background-attachment: fixed;
 }
 
-.mainpic {
+.mainPic {
     height: 195px;
     width: 100%;
     border-radius: 4px;
 }
 
-.zagolovok {
+.header {
     margin: 15px;
 }
 
-.novost {
+.newsText {
     margin: 10px;
 }
 
-#newsblock:hover{
+#newsBlock1:hover{
     transition: 1s;
     scale: 1.05;
     color: #a4161a;
     background-color: black;
 }
 
-#newsblock:not(:hover){
+#newsBlock1:not(:hover){
     transition: 1s;
     scale: 1;
     background-color: #a4161a;
@@ -138,20 +138,20 @@ main {
     padding: 2%;
 }
 
-#newsblock2:hover{
+#newsBlock2:hover{
     transition: 1s;
     scale: 1.05;
     color: #a4161a;
     background-color: rgb(0, 0, 0);
 }
 
-#newsblock2:not(:hover){
+#newsBlock2:not(:hover){
     transition: 1s;
     scale: 1;
     background-color: #a4161a;
 }
 
-#newsblock2 {
+#newsBlock2 {
     position: absolute;
     left: 40%;
     margin-top: 30px;
@@ -163,7 +163,7 @@ main {
     border:  1px solid rgb(0, 0, 0);
 } 
 
-#newsblock3 {
+#newsBlock3 {
     position: absolute;
     left: 70%;
     margin-top: 30px;
@@ -175,36 +175,36 @@ main {
     border:  1px solid rgb(0, 0, 0);
 } 
 
-#newsblock3:hover {
+#newsBlock3:hover {
     transition: 1s;
     scale: 1.05;
     color: #a4161a;
     background-color: black;
 }
 
-#newsblock3:not(:hover){
+#newsBlock3:not(:hover){
     transition: 1s;
     scale: 1;
     background-color: #a4161a;
 }
 
-.linknews {
+.linkNews {
     display: block;
     height: 100%;
     color: #000000;
 }
 
-.linknews:hover {
+.linkNews:hover {
     transition: 1s;
     color: #a4161a;
 }
 
-.linknews:not(:hover) {
+.linkNews:not(:hover) {
     transition: 1s;
     color: black;
 }
 
-#newsblock4 {
+#newsBlock4 {
     position: absolute;
     top: 1000px;
     left: 10%;
@@ -218,37 +218,37 @@ main {
     clip-path: polygon(100% 0, 100% 97%, 97% 100%, 0 100%, 0 0);
 } 
 
-.mainpic2 {
+.mainPic2 {
     height: 275px;
     width: 300px;
     border-radius: 4px;
 }
 
-#nizhniyzagolovok {
+#bottomHeader {
     margin: 5%;
     width: auto;
 }
 
-#news4 {
+#news1 {
     padding: 12px;
     display: flex;
     flex-direction: row;
 }
 
-#newsblock4:hover{
+#newsBlock4:hover{
     transition: 1s;
     scale: 1.05;
     color: #a4161a;
     background-color: rgb(0, 0, 0);
 }
 
-#newsblock4:not(:hover){
+#newsBlock4:not(:hover){
     transition: 1s;
     scale: 1;
     background-color: #a4161a;
 }
 
-#newsblock5 {
+#newsBlock5 {
     position: absolute;
     top: 1000px;
     left: 55%;
@@ -262,25 +262,25 @@ main {
     clip-path: polygon(100% 0, 100% 97%, 97% 100%, 0 100%, 0 0);
 } 
 
-#nizhniyzagolovok2 {
+#bottomHeader2 {
     margin: 5%;
     width: auto;
 }
 
-#news5 {
+#news2 {
     padding: 12px;
     display: flex;
     flex-direction: row;
 }
 
-#newsblock5:hover{
+#newsBlock5:hover{
     transition: 1s;
     scale: 1.05;
     color: #a4161a;
     background-color: rgb(0, 0, 0);
 }
 
-#newsblock5:not(:hover){
+#newsBlock5:not(:hover){
     transition: 1s;
     scale: 1;
     background-color: #a4161a;
@@ -296,7 +296,7 @@ footer {
     background-attachment: fixed;
 }
 
-#bottomblock {
+#bottomBlock {
     height: 200px;
     width: 100%;
     background-color: #a4161a;
@@ -306,70 +306,70 @@ footer {
     flex-direction: row;
 }
 
-#mediavk {
+#mediaVK {
     margin-top: 80px;
     margin-left: 50px;
     height: 60px;
 }
 
-#mediatg {
+#mediaTG {
     margin-top: 80px;
     margin-left: 100px;
     height: 60px;
 }
 
-#vkblock {
+#vkBlock {
     height: 65px;
     width: 65px;
 }
 
-#tgblock {
+#tgBlock {
     height: 65px;
     width: 65px;
 }
 
-#vbblock {
+#vbBlock {
     height: 65px;
     width: 65px;
 }
 
-#mediavb {
+#mediaVB {
     margin-top: 80px;
     margin-left: 150px;
     height: 60px;
 }
 
-#mediavb:hover {
+#mediaVB:hover {
     transition: 1s;
     scale: 1.1;
 }
 
-#mediavk:hover {
+#mediaVK:hover {
     transition: 1s;
     scale: 1.1;
 }
 
-#mediatg:hover {
+#mediaTG:hover {
     transition: 1s;
     scale: 1.1;
 }
 
-#mediavb:not(:hover) {
+#mediaVB:not(:hover) {
     transition: 1s;
     scale: 1;
 }
 
-#mediavk:not(:hover) {
+#mediaVK:not(:hover) {
     transition: 1s;
     scale: 1;
 }
 
-#mediatg:not(:hover) {
+#mediaTG:not(:hover) {
     transition: 1s;
     scale: 1;
 }
 
-.linkmedia {
+.linkMedia {
     display: block;
     height: 1px;
     width: 1px;
@@ -381,7 +381,7 @@ footer {
     margin-top: 80px;
 }
 
-.phone {
+.contact {
     color: black;
     font-size: large;
 }
@@ -398,7 +398,7 @@ footer {
     margin-top: 80px;
 }
 
-.phone:hover {
+.contact:hover {
     color: black;
     font-size: larger;
     transition: 1s;
@@ -407,7 +407,7 @@ footer {
     text-shadow: 2px 2px 2px rgb(39, 39, 39);
 }
 
-.phone:not(:hover) {
+.contact:not(:hover) {
     transition: 1s;
     color: black;
     font-size: large;
