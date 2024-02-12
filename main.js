@@ -34,3 +34,21 @@ carBrands.push('Mitsubishi');
 carBrands.splice(2, 1);
 console.log(carBrands);
 console.log(person);
+for (let key in person) {
+    console.log(key, ":" + person[key]);
+};
+class AnimeCharacter {
+    constructor (name, rating, village) {
+        this.name = name;
+        this.rating = rating;
+        this.village = village;
+    }
+    sayBye(){
+        console.log("bye");
+    }
+}
+const naruto = new AnimeCharacter("Naruto", 10, "leaf");
+console.log(naruto);
+naruto.sayBye();
+const Hinata = new AnimeCharacter("Hinata", 10, "leaf");
+console.log(Hinata);
