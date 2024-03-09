@@ -431,8 +431,8 @@ footer {
 
 img {
     transition: opacity 1s ease-in-out;
-  }
+}
   
-  img.fade {
+img.fade {
     opacity: 0;
-  }
+}
