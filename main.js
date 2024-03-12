@@ -61,3 +61,17 @@
 // document.getElementById('motto');
 // const img = document.querySelector('#logo');
 // img.setAttribute('src', 'imgs/ВАГНЕР.png');
+// const logo = document.querySelector('#logo')
+// logo.value='lol'
+// logo.addEventListener('click', function(){
+//     console.log('click');
+// })
+// Logo.onclick= function(){
+//     console.log('hi');
+// }
+// const input2 = document.querySelector('#inputpole')
+// const textblock = document.querySelector('#textblock')
+// input2.addEventListener('input', function(){
+//     console.log(input2.value);
+//     textblock.innerText = input2.value;
+// })
